@@ -1,0 +1,38 @@
+.app-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.post-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.post-form input {
+    padding: 10px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    outline: none;
+}
+
+.post-form input:focus {
+    border-color: #60a5fa;
+}
+
+.post-form button {
+    padding: 10px 16px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.post-form button:hover {
+    background-color: #1d4ed8;
+}
